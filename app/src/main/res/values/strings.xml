@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CRUD</string>
+
+    <string name="select">Pilih Area</string>
+    <string-array name="pilih_area">
+        <item>Area Tugas</item>
+        <item>JOIN (Jika Tim CGK dan GSO Se-Tiket)</item>
+        <item>CGK</item>
+        <item>GSO</item>
+        <item>Cargo</item>
+    </string-array>
+
+    <string-array name="pilih_petugas">
+        <item>Pilih Petugas</item>
+        <item>Nidhom</item>
+        <item>Sidiq</item>
+        <item>Fajar</item>
+        <item>Bayu</item>
+        <item>Fadil</item>
+        <item>Yusup</item>
+        <item>Munziat</item>
+        <item>Nando</item>
+        <item>Arga</item>
+        <item>Erwin</item>
+        <item>Fauzan</item>
+        <item>Rades</item>
+        <item>Zainudin</item>
+        <item>Nana</item>
+        <item>Zikri</item>
+    </string-array>
+
+    <string-array name="pilih_shift">
+        <item>Pilih Shift</item>
+        <item>Pagi</item>
+        <item>Sore</item>
+        <item>Malam</item>
+    </string-array>
+
+</resources>

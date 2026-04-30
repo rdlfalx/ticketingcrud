@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin.adGuide"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <!-- File Picker Button -->
+    <EditText
+        android:id="@+id/etPdfTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter title for PDF"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- File Picker Button -->
+    <Button
+        android:id="@+id/btnChooseFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose PDF File" />
+
+    <!-- Selected File Name TextView -->
+    <TextView
+        android:id="@+id/tvSelectedFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No file selected"
+        android:paddingTop="8dp"
+        android:visibility="gone" />
+
+    <!-- Upload Button -->
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload PDF Document"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+</LinearLayout>

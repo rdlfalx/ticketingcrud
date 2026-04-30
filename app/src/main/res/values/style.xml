@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize the color of the search icon -->
+        <item name="android:searchIcon">@drawable/custom_search_icon</item>
+        <!-- Customize the color of the search underline -->
+        <item name="android:queryBackground">@drawable/custom_search_underline</item>
+    </style>
+</resources>
