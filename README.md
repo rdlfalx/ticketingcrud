@@ -20,7 +20,7 @@ This is an Android application for managing tickets with CRUD functionality and 
 
 ## 📸 Screenshots
 
-(Add your screenshots here)
+Find in scrennshoot files
 
 ## ⚙️ Setup Instructions
 
